@@ -31,5 +31,11 @@ namespace ContactList
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AddContactForm addForm = new AddContactForm();
+            addForm.ShowDialog(); // Mở form thêm liên hệ
+        }
     }
 }
